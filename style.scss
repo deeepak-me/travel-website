@@ -23,4 +23,9 @@ $black-bg:rgba(17,
 17,
 .7);
 $border:.2rem solid $blue;
-html {}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
