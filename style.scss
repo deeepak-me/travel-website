@@ -28,4 +28,13 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 9rem;
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: $black;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $blue;
+    }
 }
