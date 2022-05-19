@@ -56,6 +56,17 @@ body {
   padding: 1.5rem 9%;
 }
 
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #aaa;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: #29d9d5;
+}
+
 .logo {
   font-size: 2.5rem;
   color: #fff;
