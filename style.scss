@@ -14,9 +14,7 @@
 $blue:#29d9d5;
 $black:#111;
 $white:#fff;
-$light-color:rgb(14,
-13,
-13);
+$light-color:#aaa;
 $bg-color:#222;
 $black-bg:rgba(17,
 17,
@@ -55,6 +53,15 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 9%;
+    .navbar a {
+        font-size: 1.7rem;
+        color: $light-color;
+        display: inline-block;
+        margin: 0 1rem;
+        &:hover {
+            color: $blue;
+        }
+    }
 }
 
 .logo {
