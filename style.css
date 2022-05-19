@@ -98,4 +98,11 @@ body {
   color: #29d9d5;
   padding-right: .5rem;
 }
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
